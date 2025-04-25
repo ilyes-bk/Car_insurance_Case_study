@@ -1,0 +1,53 @@
+Car Insurance Claims Prediction Model Comparison
+==================================================
+
+Model Metrics Comparison:
+------------------------------
+                     Standard XGBoost  Poisson XGBoost  Tweedie XGBoost
+RMSE                         0.233890         0.235036         0.234609
+MAE                          0.097627         0.101953         0.096052
+R²                           0.036905         0.027446         0.030973
+Poisson Deviance             0.293831         0.299661         0.296365
+Claims Detection F1          0.194128         0.175285         0.180836
+
+Standard XGBoost - Top Features:
+------------------------------
+              Feature  Importance
+13         BM_Segment    0.190785
+16         NewVehicle    0.064063
+38             BM_Exp    0.056337
+5          BonusMalus    0.055544
+49          Brand_Gas    0.053930
+0            Exposure    0.050581
+3              VehAge    0.046778
+10  VeryShortExposure    0.040600
+34      VeryHighPower    0.035671
+14        LogExposure    0.032906
+
+Poisson XGBoost - Top Features:
+------------------------------
+              Feature  Importance
+10  VeryShortExposure    0.357443
+14        LogExposure    0.174056
+0            Exposure    0.173387
+3              VehAge    0.041242
+49          Brand_Gas    0.028126
+16         NewVehicle    0.025710
+50        VehAgePower    0.025194
+7              VehGas    0.018720
+2            VehPower    0.011889
+33          HighPower    0.011393
+
+Tweedie XGBoost - Top Features:
+------------------------------
+              Feature  Importance
+0            Exposure    0.280328
+10  VeryShortExposure    0.186000
+14        LogExposure    0.165799
+16         NewVehicle    0.044722
+3              VehAge    0.038014
+31           LowPower    0.016400
+49          Brand_Gas    0.016161
+13         BM_Segment    0.015583
+20     VeryOldVehicle    0.015180
+5          BonusMalus    0.014362

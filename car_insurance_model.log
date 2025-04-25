@@ -1,0 +1,55 @@
+2025-04-25 12:56:16,273 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:16,502 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:49,341 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:49,657 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:50,457 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:50,724 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:51,539 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:51,805 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:52,580 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:52,853 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:53,759 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:54,027 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:54,890 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:55,159 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:55,876 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:56,148 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:56,808 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:57,077 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:57,701 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:57,959 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:58,606 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:56:58,873 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 12:57:10,214 - __main__ - INFO - Starting Poisson XGBoost model training with improved exposure handling
+2025-04-25 12:57:10,214 - __main__ - INFO - Input shapes - X_train: (542410, 51), y_train: (542410,), X_test: (135603, 51)
+2025-04-25 12:57:10,215 - __main__ - INFO - Exposure data provided - using as offset
+2025-04-25 12:57:10,236 - __main__ - INFO - Capping extreme frequencies at 20.0000
+2025-04-25 12:57:10,242 - __main__ - INFO - Using predefined best parameters: {'learning_rate': 0.03, 'max_depth': 4, 'min_child_weight': 3, 'gamma': 0.1, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_alpha': 0.1, 'reg_lambda': 1.0}
+2025-04-25 12:57:10,242 - __main__ - INFO - Fitting final model with exposure offset
+2025-04-25 12:57:20,502 - __main__ - INFO - Predictions shape: (135603,)
+2025-04-25 12:57:20,503 - __main__ - INFO - Prediction range: 0.0079 to 0.1900
+2025-04-25 12:57:20,504 - __main__ - INFO - Poisson XGBoost model training completed with improved exposure handling
+2025-04-25 12:57:20,512 - __main__ - INFO - Starting Tweedie XGBoost model training (power=1.5)...
+2025-04-25 12:57:20,513 - __main__ - INFO - Input shapes - X_train: (542410, 51), y_train: (542410,), X_test: (135603, 51)
+2025-04-25 12:57:20,513 - __main__ - INFO - Exposure data provided - using as offset
+2025-04-25 12:57:20,533 - __main__ - INFO - Capping extreme frequencies at 20.0000
+2025-04-25 12:57:20,540 - __main__ - INFO - Using predefined best parameters: {'learning_rate': 0.03, 'max_depth': 4, 'min_child_weight': 3, 'gamma': 0.1, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_alpha': 0.1, 'reg_lambda': 1.0}
+2025-04-25 12:57:20,540 - __main__ - INFO - Fitting Tweedie model with exposure offset
+2025-04-25 12:57:30,590 - __main__ - INFO - Predictions shape: (135603,)
+2025-04-25 12:57:30,591 - __main__ - INFO - Prediction range: 0.0004 to 0.6060
+2025-04-25 12:57:30,592 - __main__ - INFO - Tweedie XGBoost (power=1.5) model training completed.
+2025-04-25 12:57:30,733 - __main__ - INFO - Evaluating Standard XGBoost with enhanced metrics
+2025-04-25 12:57:30,865 - __main__ - INFO - Generating Lift Chart for Standard XGBoost...
+2025-04-25 12:57:31,258 - __main__ - INFO - Lift Chart saved for Standard XGBoost.
+2025-04-25 12:57:31,259 - __main__ - INFO - Generating Precision-Recall Curve for Standard XGBoost...
+2025-04-25 12:57:31,708 - __main__ - INFO - Precision-Recall Curve saved for Standard XGBoost.
+2025-04-25 12:57:31,829 - __main__ - INFO - Evaluating Poisson XGBoost with enhanced metrics
+2025-04-25 12:57:31,969 - __main__ - INFO - Generating Lift Chart for Poisson XGBoost...
+2025-04-25 12:57:32,500 - __main__ - INFO - Lift Chart saved for Poisson XGBoost.
+2025-04-25 12:57:32,501 - __main__ - INFO - Generating Precision-Recall Curve for Poisson XGBoost...
+2025-04-25 12:57:32,890 - __main__ - INFO - Precision-Recall Curve saved for Poisson XGBoost.
+2025-04-25 12:57:32,891 - __main__ - INFO - Evaluating Tweedie XGBoost with enhanced metrics
+2025-04-25 12:57:33,018 - __main__ - INFO - Generating Lift Chart for Tweedie XGBoost...
+2025-04-25 12:57:33,366 - __main__ - INFO - Lift Chart saved for Tweedie XGBoost.
+2025-04-25 12:57:33,366 - __main__ - INFO - Generating Precision-Recall Curve for Tweedie XGBoost...
+2025-04-25 12:57:33,807 - __main__ - INFO - Precision-Recall Curve saved for Tweedie XGBoost.
